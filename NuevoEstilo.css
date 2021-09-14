@@ -1,0 +1,73 @@
+
+.pantalla { 
+   margin: 0 auto; 
+   background-color: rgb(48, 48, 48);  
+   height: 200px;  
+   width:  380px;  
+   border-radius: 20px;
+   padding: 30px;  
+   margin-top: 10px;
+
+  }  
+
+
+/*Resultado*/
+  #resultado2 {  
+   text-align: right;
+   margin-right: 20px;
+   padding-top: 15px;
+   font-size: 30px;  
+   height: 20px;  
+   color: rgb(141, 131, 131);
+  } 
+  #resultado {   
+   text-align: right;
+   margin-left: 20px;
+   padding-top: 50px;
+   font-size: 60px;  
+   height: 50px;   
+   color: rgb(255, 255, 255);
+
+   
+  } 
+
+#calculadora{
+   margin: auto;
+   margin-top: 20px;
+   background-color: rgb(39, 37, 39);
+   width: 150px;
+   height: 350px;
+   border-radius: 10px;
+}
+
+/*Botones*/
+#calculadora td button{
+   border-color: whitesmoke;
+   text-align: center;
+   width: 86px;
+   height: 86px;
+   font-size: 45px;
+   border-radius: 20px;
+   margin: 3px;
+   
+}
+
+#siete, #ocho, #nueve, #cuatro, #cinco, #seis, #uno, #dos, #tres, #cero{
+    background-color: rgb(73, 49, 67);
+}
+
+/*Fondo de los botones*/
+#bloque{
+   display:flex;
+   text-align:center;
+   font-size: 10px;
+   margin-top: 15px;
+   margin-left: 60px;
+   margin-bottom: 20px;
+   width: 500;
+   height: 415px;
+   line-height: 100px;
+   background-color: rgb(39, 37, 39); 
+   border-radius: 15px;
+}
+
